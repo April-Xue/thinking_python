@@ -21,7 +21,7 @@ def cleanFile(fname):
 
 	return res 
 
-print len(cleanFile('../words.txt'))
-print cleanFile('../words.txt')[:100]
+#print len(cleanFile('../words.txt'))
+#print cleanFile('../words.txt')[:100]
 
 
