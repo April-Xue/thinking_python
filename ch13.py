@@ -9,7 +9,7 @@ import os
 import string
 
 def cleanFile(fname):
-	fin = open(curr_file)
+	fin = open(fname)
 
 	res = []
 
@@ -20,5 +20,8 @@ def cleanFile(fname):
 		res.append(s.strip().lower())
 
 	return res 
+
+print len(cleanFile('../words.txt'))
+print cleanFile('../words.txt')[:100]
 
 
